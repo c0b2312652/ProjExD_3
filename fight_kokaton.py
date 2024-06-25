@@ -236,7 +236,7 @@ def main():
         for bomb in bombs:  
             bomb.update(screen)
 
-        score.update(screen)
+        score.update(screen)  # スコア表示を更新する
 
         pg.display.update()
         tmr += 1
